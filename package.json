@@ -1,0 +1,17 @@
+{
+  "name": "bono-skeleton",
+  "version": "1.0.0",
+  "description": "Ini adalah contoh sederhana REST menggunakan node-bono yg sudah dilengkapi authentikasi JWT atau json web TOKEN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bono": "^1.0.2",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
